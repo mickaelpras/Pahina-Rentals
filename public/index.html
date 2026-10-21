@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pahina Rentals · Party rentals in Angono & Teresa, Rizal</title>
+  <meta name="description" content="Rent chairs, tables, tents, videoke, chafing dishes, bouncy castle and party deco in Angono, Teresa and nearby Rizal. Check availability and book online, pay the deposit by GCash.">
+  <meta name="theme-color" content="#0e4f54">
+  <meta property="og:title" content="Pahina Rentals — party rentals in Angono & Teresa, Rizal">
+  <meta property="og:description" content="Chairs, tables, tents, videoke, bouncy castle & deco. Check availability and book online. Deposit via GCash.">
+  <meta property="og:image" content="/og.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="#/"><img class="brand-mark" src="/icon.svg" alt=""><span>Pahina Rentals<small id="area">Angono · Teresa · Rizal</small></span></a>
+      <div class="seg" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button><button type="button" data-lang="tl">TL</button>
+      </div>
+      <a class="icon-btn" href="#/my" id="my-link" aria-label="My bookings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+      </a>
+    </div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <div class="cartbar" id="cartbar"><div class="wrap"><div class="sum" id="cartsum"></div><a class="btn btn-primary" href="#/checkout" id="cartgo"></a></div></div>
+  <footer class="site"><div class="wrap" id="footer"></div></footer>
+  <script type="module" src="/js/client.js"></script>
+</body>
+</html>

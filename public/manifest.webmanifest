@@ -1,0 +1,10 @@
+{
+  "name": "Pahina Rentals",
+  "short_name": "Pahina Rentals",
+  "description": "Party equipment rentals in Angono, Teresa & Rizal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8ee",
+  "theme_color": "#0e4f54",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
